@@ -170,8 +170,8 @@ $('document').ready(function () {
 			$("p:nth-child(" + i + ")").fadeOut('slow').delay(1000).promise().done(function () {
 				i = i + 1;
 				$("p:nth-child(" + i + ")").fadeIn('slow').delay(2000);
-				if (i == 50) {
-					$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
+				if (i == 53) {
+					$("p:nth-child(52)").fadeOut('slow').promise().done(function () {
 						$('.cake').fadeIn('fast');
 					});
 
